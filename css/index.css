@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .container{
+    padding: 0 3rem;
+    }
+    .header-all{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: absolute;
+    width:100%
+    }
+    .header-all .logo{
+    width: 15%;
+    }
+    .header-all nav{
+    width: 70%;
+    text-align: center;
+    }
+    .header-all nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 20px;
+    }
+    .header-all .appointment{
+    width: 15%;
+    }
+    .header-all .appointment a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: white;
+    color: black;
+    padding: 9px 23px;
+    border-radius: 26px;
+    font-size: 24px;
+    margin-left: -85px;
+    }
+    .header-all img{
+    width: 100%;
+    }
+    .thermo-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 110px;
+    }
+    .thermo-info{
+    width: 40%;
+    }
+    .thermo-img{
+    width: 60%;
+    }
+    .thermo-all img{
+    width: 100%;
+    
+    }
+    .thermo-info h1{
+    font-size: 54px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    }
+    #thermo{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_slide1.jpg?id=22308);
+}
+    .thermo-info p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 38px;
+    }
+    .thermo-info a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: rgb(56, 169, 224);;
+    color: black;
+    padding: 11px 24px;
+    border-radius: 23px;
+    }
+    .products-all{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between ;
+    }
+    .products-all .box{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    .products-all .box img{
+        width: 100%;
+        vertical-align:bottom;
+        border-radius: 15px 15px 0 0;
+
+    }
+    .products-all .box .box-footer{
+        background-color: #f2f2f2;
+        border-radius: 0 0 15px 15px;
+padding: 10px 30px;
+    }
+    #product .container h1{
+font-size: 30px;
+margin-bottom: 20px;
+text-align: center;
+margin-top: 20px;
+    }
+    .box-footer-price{
+display: flex;
+justify-content: space-between;
+    }
+    .box-icons{
+        width: 30px;
+        height: 140px;
+        background-color: white;
+        border-radius: 20px;
+        position: absolute;
+        top: 24px;
+        right: 19px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center ;
+        
+    }
+    .products-all .box-header{
+        position: relative;
+    }
+
+ .explore-button a{
+    text-decoration: none;
+    background-color: rgb(0, 107, 166);
+    padding: 12px 25px;
+    border-radius: 28px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .explore-button{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+ }
+ .feedback-img img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    
+    }
+    .feedback-text-img img{
+    width: 38%;
+    margin-top: 139px;
+    left: 31%;
+    position: relative;
+    }
+    .feedback-text h3{
+    text-align: center;
+    padding-bottom: 10px;
+    }
+    #feedback{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_banner.jpg?id=22303);
+    
+    }
+    #digital{
+        text-align: center;
+        position: relative;
+    }
+    #digital .container img{
+        margin-top: 83px;
+        margin-bottom: 21px;
+    }
+    #digital h1 {
+        position: absolute;
+        top: 17%;
+        left: 36%;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .digital-thermo-all{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .digital-box{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .digital-box-header img{
+        width: 100%;
+        vertical-align:bottom;
+        border-radius: 15px 15px 0 0;
+    }
+    .digital-box-footer{
+        background-color: #f2f2f2;
+        border-radius: 0 0 15px 15px;
+    padding: 10px 30px;
+    text-align: left;
+    }
+    .digital-box-footer a{
+        text-decoration: none;
+        color: #252525;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        transition:0.3s;
+    }
+    .digital-box-footer a:hover{
+        background: transparent;
+        color: blue;
+    }
+    .digital-explore-button{
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+    .digital-explore-button a{
+        text-decoration: none;
+        background-color: rgb(0, 107, 166);
+        padding: 12px 25px;
+        border-radius: 28px;
+        font-size: 20px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
